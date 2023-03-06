@@ -1,0 +1,64 @@
+.inline-block {
+    display:inline-block;
+    vertical-align:top;
+}
+
+.logo {
+    width:23;
+    padding:1;
+}
+
+.nav {
+    width: 73;
+    padding: 1;
+}
+
+.ul {
+    width: 50;
+    margin-left:auto;
+}
+
+.logo {
+    text-align: center;
+}
+
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: #373738;
+    padding: 1;
+}
+
+.ul {
+    display: inline-block;
+    vertical-align: top;
+    padding: 1;
+}
+
+.flexContainer {
+    display: flex;
+    width: 33%;
+    margin: auto;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-areas: 'project1 project 2 project3';
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: white;
+    }
+  }
+  
